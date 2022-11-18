@@ -1,0 +1,43 @@
+{
+  "name": "@qlspark/ql-core",
+  "version": "0.0.1",
+  "description": "Use ts to develop unicloud conveniently",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "tsc"
+  },
+  "files": [
+    "dist/"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qlspark/ql-core.git"
+  },
+  "dependencies": {
+    "class-transformer": "^0.5.1",
+    "class-validator": "^0.13.2",
+    "reflect-metadata": "^0.1.13"
+  },
+  "extensions": {
+    "uni-cloud-jql": {}
+  },
+  "author": "qlspark",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/qlspark/ql-core/issues"
+  },
+  "homepage": "https://github.com/qlspark/ql-core#readme",
+  "devDependencies": {
+    "@types/jest": "^29.2.3",
+    "@typescript-eslint/eslint-plugin": "^5.43.0",
+    "@typescript-eslint/parser": "^5.43.0",
+    "eslint": "^8.27.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-node": "^11.1.0",
+    "jest": "^29.3.1",
+    "prettier": "^2.7.1",
+    "ts-jest": "^29.0.3",
+    "typescript": "^4.8.3"
+  }
+}
