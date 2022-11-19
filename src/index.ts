@@ -1,16 +1,14 @@
 import 'reflect-metadata'
-import Factory from './common/factory'
-import * as exceptions from './common/exceptions'
-import Repository from './common/repository'
-import { LoginType } from './common/enums'
-import * as decorators from './common/decorators'
-import BaseEntity from './common/entity'
+import _Factory from './common/factory'
+import * as _exceptions from './common/exceptions'
+import _Repository from './common/repository'
+import { LoginType as _LoginType } from './common/enums'
+import * as _decorators from './common/decorators'
+import _BaseEntity from './common/entity'
 
-export default {
-  Factory,
-  exceptions,
-  Repository,
-  LoginType,
-  decorators,
-  BaseEntity
-}
+export const Factory = _Factory
+export const exceptions = _exceptions
+export const Repository = _Repository
+export const LoginType = _LoginType
+export const decorators = _decorators
+export const BaseEntity = _BaseEntity

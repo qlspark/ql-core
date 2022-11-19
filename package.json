@@ -1,7 +1,7 @@
 {
   "name": "@qlspark/ql-core",
-  "version": "0.0.1",
-  "description": "Use ts to develop unicloud conveniently",
+  "version": "0.0.6",
+  "description": "use ts to develop unicloud conveniently",
   "main": "dist/index.js",
   "scripts": {
     "test": "jest",
